@@ -212,10 +212,10 @@ public class String1
      * conCat("abc", "") → "abc"
      */
     public String conCat(String a, String b) {
-        String x = (a.substring(a.length()-1));
+        String v = (a.substring(a.length()-1));
         
         if (b.length()>1){
-            if (x.equals(b.substring(0,1))){
+            if (v.equals(b.substring(0,1))){
             return a.substring(0,a.length()-1) + b;
         }else{
             return a+b;
@@ -277,7 +277,7 @@ public class String1
             }else if(str.substring(0,1).equals("a")){
                 return str.substring(0,1)+str.substring(2);
             }else if(str.substring(2,3).equals("b")){
-                String xyz = str.substring(2);
+                String bus = str.substring(2);
             }else{
                 return str.substring(2);
             }
